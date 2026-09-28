@@ -9,6 +9,14 @@ For guidelines on writing changelog entries see [docs/changelog-guide.md](docs/c
 
 ## [Unreleased]
 
+### Added
+- Add 4-way parallel matrix sharding for Playwright tests in `e2e.yml`. (#875)
+- Add multi-organization concurrent application conflict integration tests. (#880)
+- Add Playwright visual regression snapshots for Drawer and Modal states. (#885)
+
+### Changed
+- Enforce cargo-deny and cargo-audit security checks in `contract-ci.yml`. (#874)
+
 ---
 
 ## [0.3.0] - 2026-08-28
